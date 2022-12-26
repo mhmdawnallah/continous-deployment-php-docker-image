@@ -27,5 +27,5 @@ jobs:
     - name: Build, tag, and push the Docker image
       run: |
         docker build . -t dkcodehelper/continuous_php_image
-        docker tag dkcodehelper/continuous_php_image:latest public.ecr.aws/i3o2a1z5/dkcodehelper/continuous_php_image:latest
-        docker push public.ecr.aws/i3o2a1z5/dkcodehelper/continuous_php_image:latest
+        docker tag dkcodehelper/continuous_php_image:latest public.ecr.aws/i3o2a1z5/mohamedawni/continous-deployment-php-docker-image:latest
+        docker push public.ecr.aws/i3o2a1z5/mohamedawni/continous-deployment-php-docker-image:latest
